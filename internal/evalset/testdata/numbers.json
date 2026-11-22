@@ -1,0 +1,71 @@
+[
+ {
+  "sentence": "A core radius of about 1,830 km.",
+  "passages": [
+   "radius of 1830 ± 40 km"
+  ],
+  "allowed": [],
+  "ok": true,
+  "missing": []
+ },
+ {
+  "sentence": "For 21 galaxies with radii from 4 to 122 kpc.",
+  "passages": [
+   "21 Sc galaxies",
+   "radii 4 < R < 122 kpc"
+  ],
+  "allowed": [],
+  "ok": true,
+  "missing": []
+ },
+ {
+  "sentence": "In 1970 they mapped 67 regions.",
+  "passages": [
+   "We mapped 67 H II regions."
+  ],
+  "allowed": [
+   "1970"
+  ],
+  "ok": true,
+  "missing": []
+ },
+ {
+  "sentence": "A value of 2,8 σ and 10,000 stars.",
+  "passages": [
+   "2.8 sigma",
+   "10000 stars"
+  ],
+  "allowed": [],
+  "ok": true,
+  "missing": []
+ },
+ {
+  "sentence": "At 4.2σ from 153 galaxies.",
+  "passages": [
+   "153 galaxies at 2.8 sigma"
+  ],
+  "allowed": [],
+  "ok": false,
+  "missing": [
+   "4.2"
+  ]
+ },
+ {
+  "sentence": "No numbers here.",
+  "passages": [
+   "Some 12 things."
+  ],
+  "allowed": [],
+  "ok": true,
+  "missing": []
+ },
+ {
+  "sentence": "Gives 2.8–4.2σ and 8σ.",
+  "passages": [
+   "2.8 to 4.2 sigma, 8 sigma"
+  ],
+  "allowed": [],
+  "ok": true,
+  "missing": []
+ }
+]

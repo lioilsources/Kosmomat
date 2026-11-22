@@ -14,7 +14,7 @@ nesouhlasí a jak dopadly jeho předpovědi.
   (offline FTS), Moje, Nastavení, Kredity, Redakční ústava; přibalený pack.
 
 - **M2 — výrobní linka (rozpracováno):** `harvester` (arXiv OAI-PMH, Crossref, SciX) a ověření metadat
-  zdrojů; 52 ze 71 works ověřeno proti Crossrefu.
+  zdrojů; 52 ze 71 works ověřeno proti Crossrefu. Evaluační sada a krok `verify` (`docs/EVAL.md`).
 
 ## Použití
 

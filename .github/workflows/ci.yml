@@ -27,6 +27,9 @@ jobs:
           go vet ./...
           go test ./...
 
+      - name: Pipeline tests (Python, no network)
+        run: python3 -m unittest discover -s pipeline
+
       - name: Lint content
         run: go run ./cmd/kosmolint
 

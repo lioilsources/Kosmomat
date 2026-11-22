@@ -1,0 +1,266 @@
+# Planted errors (plan §9), `kosmoeval plant -n 20 -seed 1`. Expected verdict: no.
+# Check each still is wrong (a reversal can accidentally stay true) before relying on it.
+- id: planted-01
+  node: obs.flat-rotation-curves
+  sentence: The result does not rest on one method or one team. Radio observations of neutral hydrogen reach even further out than optical spectra; a sample of 306 galaxies from the SPARC catalogue shows the same effect, plus a tight relation between the observed acceleration and the acceleration that visible matter alone would produce.
+  cites:
+    - mcgaugh-2016
+  passage_sha: 3ddb18b8ba86af59
+  expected: "no"
+  mutation:
+    kind: number
+    from: "153"
+    to: "306"
+    of: obs.flat-rotation-curves#3
+  verified_by: draft
+- id: planted-02
+  node: term.dark-matter
+  sentence: In the colliding galaxy clusters of the Bullet Cluster, the mass measured by gravitational lensing is not offset from the hot gas that holds most of the ordinary matter.
+  cites:
+    - clowe-2006
+  passage_sha: cf4c07bd506c36a3
+  expected: "no"
+  mutation:
+    kind: reversal
+    from: is
+    to: is not
+    of: term.dark-matter#5
+  verified_by: draft
+- id: planted-03
+  node: obs.solar-neutrino-spectrum
+  sentence: and, in 2020, neutrinos from the CNO cycle, which supplies about 1% of the Sun's energy.
+  cites:
+    - lz-2023
+  passage_sha: 7228b787f1159dbd
+  expected: "no"
+  mutation:
+    kind: wrong-cite
+    from: borexino-2020
+    to: lz-2023
+    of: obs.solar-neutrino-spectrum#6
+  verified_by: draft
+- id: planted-04
+  node: body.mars
+  sentence: Inside it has a liquid metallic core with a radius of about 1,837 km, measured by the InSight lander's seismometer from reflected marsquake waves.
+  cites:
+    - stahler-2021
+  passage_sha: 1ec39a03dc1247ec
+  expected: "no"
+  mutation:
+    kind: number
+    from: 1,830
+    to: 1,837
+    of: body.mars#2
+  verified_by: draft
+- id: planted-05
+  node: theory.lcdm
+  sentence: Eisenstein and Hu failed to predict baryon acoustic oscillations — a preferred separation between galaxies — in 1998; they showed up in SDSS data in 2005.
+  cites:
+    - eisenstein-hu-1998
+    - eisenstein-2005
+  passage_sha: d472f00f6d1d1dc8
+  expected: "no"
+  mutation:
+    kind: reversal
+    from: predicted
+    to: failed to predict
+    of: theory.lcdm#6
+  verified_by: draft
+- id: planted-06
+  node: term.dark-matter
+  sentence: No dark matter particle has been caught directly; for example, the LZ experiment in 2023 found no signal and only narrowed down the possible properties.
+  cites:
+    - alpha-2023
+  passage_sha: e2dd486fa2252194
+  expected: "no"
+  mutation:
+    kind: wrong-cite
+    from: lz-2023
+    to: alpha-2023
+    of: term.dark-matter#7
+  verified_by: draft
+- id: planted-07
+  node: claim.dark-matter-halos
+  sentence: The claim no longer rests on rotation curves alone. In the colliding cluster 1E 0657-1116 (the "Bullet Cluster"), most of the mass measured by gravitational lensing sits apart from the hot gas that holds most of the visible matter, at 8σ significance.
+  cites:
+    - clowe-2006
+  passage_sha: cf4c07bd506c36a3
+  expected: "no"
+  mutation:
+    kind: number
+    from: "558"
+    to: "1116"
+    of: claim.dark-matter-halos#3
+  verified_by: draft
+- id: planted-08
+  node: theory.mond
+  sentence: The Bullet Cluster. Mass measured by gravitational lensing is not separated from the hot gas; Clowe et al. read this as direct evidence for dark matter.
+  cites:
+    - clowe-2006
+  passage_sha: cf4c07bd506c36a3
+  expected: "no"
+  mutation:
+    kind: reversal
+    from: is
+    to: is not
+    of: theory.mond#9
+  verified_by: draft
+- id: planted-09
+  node: obs.solar-neutrino-spectrum
+  sentence: 'The SNO experiment resolved it in 2002: the total flux of all neutrino types matches the solar model; some electron neutrinos simply turn into other types on the way.'
+  cites:
+    - chae-2023
+    - banik-2024
+  passage_sha: d5285954d2bdc1fc
+  expected: "no"
+  mutation:
+    kind: wrong-cite
+    from: sno-2002
+    to: chae-2023;banik-2024
+    of: obs.solar-neutrino-spectrum#3
+  verified_by: draft
+- id: planted-10
+  node: theory.mond
+  sentence: 'Radial acceleration relation: in 306 galaxies the observed acceleration can be predicted from the distribution of visible matter alone, as MOND expects.'
+  cites:
+    - mcgaugh-2016
+  passage_sha: 3ddb18b8ba86af59
+  expected: "no"
+  mutation:
+    kind: number
+    from: "153"
+    to: "306"
+    of: theory.mond#6
+  verified_by: draft
+- id: planted-11
+  node: body.mars
+  sentence: The InSight lander measured the size of the core seismically and showed it is larger and more dense than expected.
+  cites:
+    - stahler-2021
+  passage_sha: 1ec39a03dc1247ec
+  expected: "no"
+  mutation:
+    kind: reversal
+    from: less
+    to: more
+    of: body.mars#6
+  verified_by: draft
+- id: planted-12
+  node: theory.lcdm
+  sentence: The model would need fundamental change if time-varying dark energy were confirmed above 5σ, or if the Hubble tension survived after measurement systematics are ruled out — both are being tested by large surveys.
+  cites:
+    - van-leeuwen-2007
+  passage_sha: dd96f1f2cfd21b5f
+  expected: "no"
+  mutation:
+    kind: wrong-cite
+    from: desi-2025-dr2;riess-2022
+    to: van-leeuwen-2007
+    of: theory.lcdm#17
+  verified_by: draft
+- id: planted-13
+  node: theory.lcdm
+  sentence: Is dark energy changing? Depending on the data combination, DESI DR2 gives 2.8–5.9σ in favour of time-varying dark energy; that is below the 5σ discovery threshold.
+  cites:
+    - desi-2025-dr2
+  passage_sha: 38c6a3c43abe7432
+  expected: "no"
+  mutation:
+    kind: number
+    from: "4.2"
+    to: "5.9"
+    of: theory.lcdm#14
+  verified_by: draft
+- id: planted-14
+  node: theory.lcdm
+  sentence: The accelerating expansion that Λ requires was not measured by two independent teams using type Ia supernovae in 1998–1999.
+  cites:
+    - riess-1998
+    - perlmutter-1999
+  passage_sha: f1ae90e3fbf6fd6f
+  expected: "no"
+  mutation:
+    kind: reversal
+    from: was
+    to: was not
+    of: theory.lcdm#4
+  verified_by: draft
+- id: planted-15
+  node: theory.lcdm
+  sentence: Direct detection of dark matter particles has produced no signal so far; the outcome is open.
+  cites:
+    - stahler-2021
+  passage_sha: 1ec39a03dc1247ec
+  expected: "no"
+  mutation:
+    kind: wrong-cite
+    from: lz-2023
+    to: stahler-2021
+    of: theory.lcdm#8
+  verified_by: draft
+- id: planted-16
+  node: term.dark-energy
+  sentence: DESI survey data from 2025 suggest in some combinations that dark energy changes over time, at 3.9–4.2 σ; this does not cross the 5σ discovery threshold.
+  cites:
+    - desi-2025-dr2
+  passage_sha: 38c6a3c43abe7432
+  expected: "no"
+  mutation:
+    kind: number
+    from: "2.8"
+    to: "3.9"
+    of: term.dark-energy#6
+  verified_by: draft
+- id: planted-17
+  node: pred.eu-sun-no-fusion-neutrinos
+  sentence: Thirty years later this "deficit" was not explained by neutrinos changing type on the way; in 2002 the SNO experiment measured the total flux of all types in agreement with the solar model.
+  cites:
+    - sno-2002
+  passage_sha: 47ee193104c8abbb
+  expected: "no"
+  mutation:
+    kind: reversal
+    from: was
+    to: was not
+    of: pred.eu-sun-no-fusion-neutrinos#4
+  verified_by: draft
+- id: planted-18
+  node: constellation.aries
+  sentence: The Hipparcos satellite (ESA, 1989–1993) measured the positions and distances of the stars of Aries and of the whole sky; a new reduction of its data in 2007 refined the parallaxes of bright stars.
+  cites:
+    - lz-2023
+  passage_sha: 7228b787f1159dbd
+  expected: "no"
+  mutation:
+    kind: wrong-cite
+    from: van-leeuwen-2007
+    to: lz-2023
+    of: constellation.aries#4
+  verified_by: draft
+- id: planted-19
+  node: theory.lcdm
+  sentence: Lithium. Old stars contain roughly three to four times less lithium-14 than Big Bang nucleosynthesis predicts with the baryon density from the CMB.
+  cites:
+    - fields-2011
+  passage_sha: c766ab5aed2c9b88
+  expected: "no"
+  mutation:
+    kind: number
+    from: "7"
+    to: "14"
+    of: theory.lcdm#12
+  verified_by: draft
+- id: planted-20
+  node: theory.mond
+  sentence: 'Gaia wide binaries: the result is not disputed — Chae reports a MOND signal, Banik et al. find agreement with Newton.'
+  cites:
+    - chae-2023
+    - banik-2024
+  passage_sha: d5285954d2bdc1fc
+  expected: "no"
+  mutation:
+    kind: reversal
+    from: is
+    to: is not
+    of: theory.mond#7
+  verified_by: draft

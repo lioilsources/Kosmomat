@@ -9,6 +9,7 @@ Vědecký protějšek AstroMatu (`../Astro`); efemeridy přes `sky_core` vyčlen
 ## Build a test (gate)
 ```
 go vet ./... && go test ./...
+python3 -m unittest discover -s pipeline
 go run ./cmd/kosmolint                 # jen chyby; -warnings ukáže i varování
 go run ./cmd/kosmobuild -version X -app app/assets/pack   # lint → pack + kopie do appky
 cd app && flutter analyze && flutter test
@@ -24,7 +25,9 @@ Po změně `content/` vždy přestavět pack s `-app`; CI kontroluje, že přiba
 - `internal/pack` — SQLite pack (`schema.sql`, FTS5), manifest, web export
 - `app/` — Flutter čtečka (Riverpod, go_router, sqlite3 s FTS5); pack v `app/assets/pack/`, texty UI v ARB (cs, en)
 - `cmd/harvester` + `internal/harvest` — arXiv/Crossref/SciX → `out/harvest.sqlite` (works_raw); `verify` kontroluje `content/works`
-- Plánované: `cmd/reviewd`, `pipeline/` Python, `review/` Svelte, `web/` Astro
+- `cmd/kosmoeval` + `internal/evalset` — evaluační sada M2 (`eval/`), nastražené chyby, skóre brány; postup `docs/EVAL.md`
+- `pipeline/` — LLM kroky v Pythonu (jen stdlib); `verify.py` + `numcheck.py` (zrcadlo Go, sdílené vektory `internal/evalset/testdata/numbers.json`)
+- Plánované: `cmd/reviewd`, triage/extract/draft v `pipeline/`, `review/` Svelte, `web/` Astro
 
 ## Invarianty
 - Žádné věcné tvrzení bez zdroje s lokátorem. Nevymýšlet; nejistotu zapsat do `todo_verify`.
