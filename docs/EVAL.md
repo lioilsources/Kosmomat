@@ -59,7 +59,7 @@ Co z toho plyne:
   ohodnotil jen dvojici výsledků.
 - **Nízká přesnost je hlavně problém sady, ne modelu.** Všechny pravé položky mají
   `expected: yes` jen jako výchozí návrh. Řada vět ale říká víc než abstrakt:
-  - závěr karty („vyvrací předpověď EU“, `theory.lcdm#18`);
+  - závěr karty („vyvrací předpověď EU“, `pred.eu-sun-no-fusion-neutrinos#6`; podmínky vyvrácení, `theory.lcdm#18`);
   - obecné tvrzení podepřené jedním experimentem („žádný experiment“, `theory.lcdm#10`);
   - citaci na nevhodný abstrakt (`term.antimatter#7` → LZ, `theory.lcdm#1` → Planck).
 
