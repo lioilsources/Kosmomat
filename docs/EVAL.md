@@ -43,3 +43,30 @@ Dokud nejsou položky `verified_by: human`, je skóre jen orientační (`score` 
 38 pravých + 20 nastražených. Kontrolní běh s „modelem“, který vždy odpoví `yes`: přesnost
 86,8 %, číselná shoda 86,5 %, záchyt 55 % (jen díky číselné kontrole) → no-go, jak má být.
 Skutečný model zatím neběžel — broker SPARKu byl nedostupný.
+
+## První běh s modelem (2026-11-22)
+
+Qwen3.6-35B-A3B-FP8 na L40S (vLLM, `qwen36/verify-v1`), 58 položek, ~15 min. Výsledek: **no-go**.
+
+| metrika | výsledek | práh |
+|---|---|---|
+| přesnost citací | 34,2 % (13/38 `yes`) | ≥ 95 % |
+| číselná shoda | 86,5 % (5 vět) | 100 % |
+| záchyt nastražených | 95,0 % (19/20) | ≥ 90 % |
+
+Co z toho plyne:
+- **Záchyt funguje.** Unikla jen `planted-20` („is not disputed“). Model přehlédl obrácení a
+  ohodnotil jen dvojici výsledků.
+- **Nízká přesnost je hlavně problém sady, ne modelu.** Všechny pravé položky mají
+  `expected: yes` jen jako výchozí návrh. Řada vět ale říká víc než abstrakt:
+  - závěr karty („vyvrací předpověď EU“, `theory.lcdm#18`);
+  - obecné tvrzení podepřené jedním experimentem („žádný experiment“, `theory.lcdm#10`);
+  - citaci na nevhodný abstrakt (`term.antimatter#7` → LZ, `theory.lcdm#1` → Planck).
+
+  Model tu má pravdu, že to z pasáže neplyne. 18 z 25 chyb je `partial`: jádro sedí, jen detail ne.
+- **Číselná shoda** je deterministická (`numcheck`) a selhává na týchž 5 větách jako dřív.
+  Je potřeba opravit karty, nikoli model.
+
+Další krok: Ol1n nastaví `expected` u pravých položek (u mnohých `partial`, karty s chybnou
+citací opravit) a rozhodne, zda `partial` u pravé věty počítat do přesnosti. Pak se `score` spustí
+znovu bez nového běhu modelu.
