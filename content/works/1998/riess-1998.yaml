@@ -1,0 +1,11 @@
+key: riess-1998
+tier: T1
+kind: article
+title: "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant"
+authors: ["Riess, A. G.", "et al."]
+year: 1998
+venue: "The Astronomical Journal 116, 1009–1038"
+ids: { doi: "10.1086/300499", arxiv: "astro-ph/9805201", bibcode: "", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

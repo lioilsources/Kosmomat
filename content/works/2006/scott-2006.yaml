@@ -1,0 +1,11 @@
+key: scott-2006
+tier: T5
+kind: book
+title: "The Electric Sky: A Challenge to the Myths of Modern Astronomy"
+authors: ["Scott, D. E."]
+year: 2006
+venue: "Mikamar Publishing, Portland"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

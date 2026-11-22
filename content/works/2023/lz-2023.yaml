@@ -1,0 +1,11 @@
+key: lz-2023
+tier: T1
+kind: data-release
+title: "First Dark Matter Search Results from the LUX-ZEPLIN (LZ) Experiment"
+authors: ["LZ Collaboration", "Aalbers, J.", "et al."]
+year: 2023
+venue: "Physical Review Letters 131, 041002"
+ids: { doi: "10.1103/PhysRevLett.131.041002", arxiv: "2207.03764", bibcode: "", isbn: "", url: "" }
+country: ["US", "GB"]
+retracted: false
+verified: false

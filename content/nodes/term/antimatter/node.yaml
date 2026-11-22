@@ -1,0 +1,18 @@
+id: term.antimatter
+type: term
+literature: mainstream
+title: { cs: "Antihmota", en: "Antimatter" }
+summary:
+  cs: "Hmota z antičástic: stejná hmotnost, opačný náboj. Není to hypotéza — pozitrony objevil Anderson 1933, antivodík se v CERN chytá a měří. Nezaměňovat s temnou hmotou ani temnou energií."
+  en: "Matter made of antiparticles: same mass, opposite charge. Not a hypothesis — Anderson discovered positrons in 1933 and antihydrogen is trapped and measured at CERN. Not to be confused with dark matter or dark energy."
+edges:
+  - { rel: related, to: term.dark-matter }
+  - { rel: related, to: term.dark-energy }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "dirac-1931: lokátor pasáže o antielektronu (s. 61?)"
+  - "alpha-2010: počet zachycených atomů (38) proti abstraktu"
+  - "alpha-2023: formulace výsledku (směr pádu, přesnost) proti abstraktu"

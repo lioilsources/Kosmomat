@@ -1,0 +1,11 @@
+key: borexino-2020
+tier: T1
+kind: article
+title: "Experimental evidence of neutrinos produced in the CNO fusion cycle in the Sun"
+authors: ["Borexino Collaboration"]
+year: 2020
+venue: "Nature 587, 577–582"
+ids: { doi: "10.1038/s41586-020-2934-0", arxiv: "2006.15115", bibcode: "", isbn: "", url: "" }
+country: ["IT"]
+retracted: false
+verified: false

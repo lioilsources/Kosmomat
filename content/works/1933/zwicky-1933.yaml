@@ -1,0 +1,11 @@
+key: zwicky-1933
+tier: T1
+kind: article
+title: "Die Rotverschiebung von extragalaktischen Nebeln"
+authors: ["Zwicky, F."]
+year: 1933
+venue: "Helvetica Physica Acta 6, 110–127"
+ids: { doi: "", arxiv: "", bibcode: "1933AcHPh...6..110Z", isbn: "", url: "" }
+country: ["CH", "US"]
+retracted: false
+verified: false

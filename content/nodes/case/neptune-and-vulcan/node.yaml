@@ -1,0 +1,22 @@
+id: case.neptune-and-vulcan
+type: case
+case_kind: pair
+literature: mainstream
+title: { cs: "Neptun a Vulkán", en: "Neptune and Vulcan" }
+summary:
+  cs: "Le Verrier z odchylek Uranu předpověděl neviditelnou planetu — Neptun se našel v roce 1846. Z odchylek Merkuru předpověděl Vulkán — ten neexistuje a vyřešila to nová teorie gravitace (1915). Obě cesty jednou vyhrály."
+  en: "From Uranus's deviations Le Verrier predicted an unseen planet — Neptune was found in 1846. From Mercury's deviations he predicted Vulcan — it does not exist, and a new theory of gravity solved it (1915). Both routes have won once."
+edges:
+  - { rel: related, to: claim.dark-matter-halos }
+  - { rel: related, to: theory.mond }
+  - { rel: related, to: term.dark-matter }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "baum-sheehan-1997: čísla kapitol (Neptun, Lescarbault, hledání při zatměních) — dosazeny obecné lokátory"
+  - "leverrier-1859: hodnota přebytku stáčení (~38″/století) a stránka"
+  - "einstein-1915: stránka s výsledkem 43″ (s. 839?)"
+  - "clemence-1947: přesné hodnoty pozorovaného a předpovězeného stáčení (tab. ?)"
+  - "Role J. C. Adamse — ověřit v baum-sheehan-1997 nebo doplnit primární zdroj"

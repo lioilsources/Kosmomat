@@ -1,0 +1,11 @@
+key: nssdc-mars
+tier: T4
+kind: press
+title: "Mars Fact Sheet"
+authors: ["Williams, D. R. (NASA GSFC)"]
+year: 2024
+venue: "NASA Space Science Data Coordinated Archive"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html" }
+country: ["US"]
+retracted: false
+verified: false

@@ -1,0 +1,21 @@
+id: exp.eratosthenes-shadow
+type: experiment
+difficulty: medium
+title: { cs: "Eratosthenův stín", en: "Eratosthenes' shadow" }
+summary:
+  cs: "Dva lidé ve dvou městech změří ve stejný den v pravé poledne stín svislé tyčky. Z rozdílu úhlů a vzdálenosti měst spočítají obvod Země — stejně jako Eratosthenés kolem roku 240 př. n. l."
+  en: "Two people in two cities measure the shadow of a vertical stick at local noon on the same day. From the difference in angles and the distance between the cities they compute Earth's circumference — just as Eratosthenes did around 240 BCE."
+needs:
+  cs: ["svislá tyčka 1 m (olovnice nebo vodováha)", "metr", "druhý člověk ve městě aspoň 300 km severně nebo jižně", "hodinky a znalost místního pravého poledne", "kalkulačka"]
+  en: ["a vertical 1 m stick (plumb line or spirit level)", "a tape measure", "a second person in a city at least 300 km north or south", "a watch and the time of local solar noon", "a calculator"]
+edges:
+  - { rel: related, to: q.what-is-the-universe-made-of }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "bowen-todd-2004: přesný lokátor Kleomédova popisu (I.7, řádky?)"
+  - "Datace Eratosthenova měření (~240 př. n. l.) — doplnit zdroj"
+  - "Spor o délku stadia — doplnit zdroj, nebo vypustit"
+  - "bowen-todd-2004 I.5: ověřit, že tam Kleomédés uvádí kulatý stín Země při zatmění Měsíce"

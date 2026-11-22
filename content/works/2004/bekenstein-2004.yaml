@@ -1,0 +1,11 @@
+key: bekenstein-2004
+tier: T1
+kind: article
+title: "Relativistic gravitation theory for the modified Newtonian dynamics paradigm"
+authors: ["Bekenstein, J. D."]
+year: 2004
+venue: "Physical Review D 70, 083509"
+ids: { doi: "10.1103/PhysRevD.70.083509", arxiv: "astro-ph/0403694", bibcode: "", isbn: "", url: "" }
+country: ["IL"]
+retracted: false
+verified: false

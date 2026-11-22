@@ -1,0 +1,23 @@
+id: q.what-is-the-universe-made-of
+type: question
+testability: empirical
+title: { cs: "Z čeho je vesmír?", en: "What is the universe made of?" }
+summary:
+  cs: "Od vody a čtyř živlů přes Slunce z vodíku až po dnešní rozpočet: asi 5 % běžné hmoty, 26 % temné hmoty a 69 % temné energie. Ty dvě poslední složky jsou odvozené z pozorování, ne přímo zachycené."
+  en: "From water and the four elements, via a Sun made of hydrogen, to today's budget: about 5% ordinary matter, 26% dark matter and 69% dark energy. The last two are inferred from observations, not caught directly."
+edges:
+  - { rel: related, to: term.dark-matter }
+  - { rel: related, to: term.dark-energy }
+  - { rel: related, to: term.antimatter }
+  - { rel: related, to: theory.lcdm }
+  - { rel: related, to: theory.mond }
+  - { rel: related, to: theory.electric-universe }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "kirk-raven-schofield-1983: čísla kapitol (Thalés kap. 2, Empedoklés kap. 10, atomisté kap. 15) a fragmentů"
+  - "payne-1925: stránka se závěrem o převaze vodíku a Russellově námitce"
+  - "planck-2018-vi tab. 2: zaokrouhlení 5/26/69 % (Ωb ≈ 0,049, Ωc ≈ 0,264, ΩΛ ≈ 0,685)"
+  - "Do historické vrstvy chybí Aristotelův éter (De caelo) — doplnit zdroj"

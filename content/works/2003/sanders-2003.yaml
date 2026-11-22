@@ -1,0 +1,11 @@
+key: sanders-2003
+tier: T1
+kind: article
+title: "Clusters of galaxies with modified Newtonian dynamics"
+authors: ["Sanders, R. H."]
+year: 2003
+venue: "Monthly Notices of the Royal Astronomical Society 342, 901–908"
+ids: { doi: "10.1046/j.1365-8711.2003.06596.x", arxiv: "astro-ph/0212293", bibcode: "", isbn: "", url: "" }
+country: ["NL"]
+retracted: false
+verified: false

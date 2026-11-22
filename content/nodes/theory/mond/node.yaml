@@ -1,0 +1,61 @@
+id: theory.mond
+type: theory
+status: contested
+literature: minority
+title: { cs: "MOND (modifikovaná newtonovská dynamika)", en: "MOND (Modified Newtonian Dynamics)" }
+summary:
+  cs: "Místo temné hmoty mění zákon gravitace: pod zrychlením asi 1,2·10⁻¹⁰ m/s² slábne gravitace pomaleji než podle Newtona. Dobře předpovídá rotaci galaxií, potíže má s kupami galaxií a reliktním zářením."
+  en: "Instead of dark matter, it changes the law of gravity: below an acceleration of about 1.2·10⁻¹⁰ m/s² gravity weakens more slowly than Newton says. It predicts galaxy rotation well but struggles with galaxy clusters and the CMB."
+first_proposed:
+  year: 1983
+  by: [person.mordehai-milgrom]
+  in: work.milgrom-1983
+edges:
+  - { rel: interprets, to: obs.flat-rotation-curves }
+  - { rel: supported_by, to: obs.flat-rotation-curves, source: { work: work.mcgaugh-2016, loc: "abstrakt" } }
+  - { rel: contradicted_by, to: obs.bullet-cluster, source: { work: work.clowe-2006, loc: "abstrakt" } }
+  - { rel: contradicted_by, to: obs.galaxy-cluster-masses, source: { work: work.sanders-2003, loc: "abstrakt" } }
+  - { rel: competes_with, to: theory.lcdm }
+  - { rel: competes_with, to: claim.dark-matter-halos }
+predictions:
+  - id: pred.mond-lsb-discrepancy
+    statement:
+      cs: "Galaxie s nízkou plošnou jasností mají nízká vnitřní zrychlení, a proto u nich bude rozdíl mezi viditelnou a „dynamickou“ hmotou největší."
+      en: "Low-surface-brightness galaxies have low internal accelerations, so they will show the largest gap between visible and 'dynamical' mass."
+    made: { year: 1983, by: [person.mordehai-milgrom], in: work.milgrom-1983, loc: "abstrakt" }
+    made_before_observation: true
+    retrodiction: false
+    test: { year: 1998, obs: obs.flat-rotation-curves, by: [person.stacy-mcgaugh, person.erwin-de-blok], in: work.mcgaugh-deblok-1998, loc: "abstrakt" }
+    outcome: confirmed
+  - id: pred.mond-btfr
+    statement:
+      cs: "Čtvrtá mocnina rychlosti na okraji galaxie je úměrná celkové baryonové hmotě (baryonový Tully-Fisherův vztah) bez dalšího volného parametru."
+      en: "The fourth power of a galaxy's outer rotation speed is proportional to its total baryonic mass (the baryonic Tully-Fisher relation), with no further free parameter."
+    made: { year: 1983, by: [person.mordehai-milgrom], in: work.milgrom-1983, loc: "abstrakt" }
+    made_before_observation: true
+    retrodiction: false
+    test: { year: 2000, obs: obs.flat-rotation-curves, by: [person.stacy-mcgaugh], in: work.mcgaugh-2000, loc: "abstrakt" }
+    outcome: confirmed
+  - id: pred.mond-wide-binaries
+    statement:
+      cs: "Široké dvojhvězdy s oddělením tisíců astronomických jednotek obíhají v oblasti nízkých zrychlení, a proto by měly obíhat rychleji, než dovoluje Newton."
+      en: "Wide binary stars separated by thousands of astronomical units orbit at low accelerations and should therefore move faster than Newton allows."
+    made: { year: 1983, by: [person.mordehai-milgrom], in: work.milgrom-1983, loc: "abstrakt" }
+    made_before_observation: true
+    retrodiction: false
+    test: { year: 2024, obs: obs.gaia-wide-binaries, in: work.banik-2024, loc: "abstrakt" }
+    outcome: open
+    note:
+      cs: "Chae (2023) hlásí odchylku ve prospěch MOND, Banik a kol. (2024) ve stejných datech Gaia DR3 vidí shodu s Newtonem. Spor je o výběr vzorku a o podíl trojhvězd."
+      en: "Chae (2023) reports a deviation favouring MOND; Banik et al. (2024) find agreement with Newton in the same Gaia DR3 data. The dispute is over sample selection and the fraction of triples."
+required_sections: [claims, predictions, open_problems, competitors, would_refute]
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "famaey-mcgaugh-2012: a0 ≈ 1,2·10⁻¹⁰ m/s² a čísla sekcí (§1, §6, §7)"
+  - "pred.mond-wide-binaries: test širokých dvojhvězd jako předpověď navrhli až pozdější autoři — dohledat první formulaci (Hernandez a kol. 2012?) a upravit made"
+  - "Chae vs. Banik: zkontrolovat stav sporu k 11/2026 (plán uvádí arXiv 2602.24035)"
+  - "sanders-2003: faktor ~2 chybějící hmoty v centrech kup (abstrakt)"
+  - "skordis-zlosnik-2021: tvrzení o shodě s reliktním zářením a spektrem hmoty (abstrakt)"

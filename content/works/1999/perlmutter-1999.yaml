@@ -1,0 +1,11 @@
+key: perlmutter-1999
+tier: T1
+kind: article
+title: "Measurements of Omega and Lambda from 42 High-Redshift Supernovae"
+authors: ["Perlmutter, S.", "et al."]
+year: 1999
+venue: "The Astrophysical Journal 517, 565–586"
+ids: { doi: "10.1086/307221", arxiv: "astro-ph/9812133", bibcode: "", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

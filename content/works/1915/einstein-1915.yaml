@@ -1,0 +1,11 @@
+key: einstein-1915
+tier: T1
+kind: classic
+title: "Erklärung der Perihelbewegung des Merkur aus der allgemeinen Relativitätstheorie"
+authors: ["Einstein, A."]
+year: 1915
+venue: "Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften, 831–839"
+ids: { doi: "", arxiv: "", bibcode: "1915SPAW.......831E", isbn: "", url: "" }
+country: ["DE"]
+retracted: false
+verified: false

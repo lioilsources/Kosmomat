@@ -1,0 +1,82 @@
+id: theory.lcdm
+type: theory
+status: strong
+literature: mainstream
+title: { cs: "ΛCDM (standardní kosmologický model)", en: "ΛCDM (standard cosmological model)" }
+summary:
+  cs: "Vesmír se rozpíná z horkého hustého stavu; dnes ho tvoří asi 5 % běžné hmoty, 27 % chladné temné hmoty a 68 % temné energie (Λ). Sedí na reliktní záření i rozložení galaxií; má otevřená napětí."
+  en: "The universe expands from a hot, dense state; today it is about 5% ordinary matter, 27% cold dark matter and 68% dark energy (Λ). It fits the CMB and the galaxy distribution, with open tensions."
+first_proposed:
+  year: 1984
+  by: [person.jim-peebles]
+  in: work.peebles-1984
+edges:
+  - { rel: builds_on, to: theory.hot-big-bang }
+  - { rel: builds_on, to: claim.dark-matter-halos }
+  - { rel: supported_by, to: obs.cmb, source: { work: work.planck-2018-vi, loc: "abstrakt" } }
+  - { rel: supported_by, to: obs.bao, source: { work: work.eisenstein-2005, loc: "abstrakt" } }
+  - { rel: supported_by, to: obs.accelerating-expansion, source: { work: work.riess-1998, loc: "abstrakt" } }
+  - { rel: contradicted_by, to: obs.local-hubble-constant, source: { work: work.riess-2022, loc: "abstrakt" }, note: { cs: "Hubbleovo napětí; spor o systematiku trvá", en: "Hubble tension; the dispute over systematics continues" } }
+  - { rel: competes_with, to: theory.mond }
+  - { rel: related, to: term.dark-energy }
+  - { rel: related, to: term.dark-matter }
+predictions:
+  - id: pred.cmb-relic-radiation
+    statement:
+      cs: "Vesmír vyplňuje tepelné záření o teplotě několika kelvinů, pozůstatek horkého raného vesmíru."
+      en: "The universe is filled with thermal radiation a few kelvin warm, a relic of the hot early universe."
+    made: { year: 1948, by: [person.ralph-alpher, person.robert-herman], in: work.alpher-herman-1948, loc: "s. 774" }
+    made_before_observation: true
+    retrodiction: false
+    test: { year: 1965, obs: obs.cmb, by: [person.arno-penzias, person.robert-wilson], in: work.penzias-wilson-1965, loc: "abstrakt" }
+    outcome: confirmed
+    note:
+      cs: "Předpověď patří horkému velkému třesku, z něhož ΛCDM vychází."
+      en: "The prediction belongs to the hot Big Bang on which ΛCDM builds."
+  - id: pred.lcdm-bao-scale
+    statement:
+      cs: "Zvukové vlny v raném plazmatu zanechají v rozložení galaxií přednostní vzdálenost (baryonové akustické oscilace)."
+      en: "Sound waves in the early plasma leave a preferred separation in the distribution of galaxies (baryon acoustic oscillations)."
+    made: { year: 1998, by: [person.daniel-eisenstein, person.wayne-hu], in: work.eisenstein-hu-1998, loc: "abstrakt" }
+    made_before_observation: true
+    retrodiction: false
+    test: { year: 2005, obs: obs.bao, by: [person.daniel-eisenstein], in: work.eisenstein-2005, loc: "abstrakt" }
+    outcome: confirmed
+  - id: pred.bbn-lithium-7
+    statement:
+      cs: "Prvotní nukleosyntéza určí zastoupení deuteria, helia-4 a lithia-7 v nejstarších hvězdách a oblacích plynu."
+      en: "Big Bang nucleosynthesis fixes the abundances of deuterium, helium-4 and lithium-7 in the oldest stars and gas clouds."
+    made: { year: 1967, by: [person.robert-wagoner, person.william-fowler, person.fred-hoyle], in: work.wagoner-1967, loc: "abstrakt" }
+    made_before_observation: true
+    retrodiction: false
+    test: { year: 2011, obs: obs.primordial-lithium, in: work.fields-2011, loc: "abstrakt" }
+    outcome: partial
+    note:
+      cs: "Deuterium a helium sedí; lithia-7 je ve starých hvězdách zhruba třikrát až čtyřikrát méně, než model předpovídá."
+      en: "Deuterium and helium agree; old stars show roughly three to four times less lithium-7 than the model predicts."
+  - id: pred.lcdm-dm-direct-detection
+    statement:
+      cs: "Je-li chladná temná hmota tvořena slabě interagujícími částicemi, podzemní detektory by měly zachytit jejich srážky s jádry atomů."
+      en: "If cold dark matter consists of weakly interacting particles, underground detectors should record their collisions with atomic nuclei."
+    made: { year: 2018, in: work.bertone-hooper-2018, loc: "§VI" }
+    made_before_observation: true
+    retrodiction: false
+    test: { year: 2023, obs: obs.dm-direct-detection-null, in: work.lz-2023, loc: "abstrakt" }
+    outcome: open
+    note:
+      cs: "Zatím bez signálu; ΛCDM nepotřebuje konkrétní typ částice, takže nulový výsledek omezuje jen některé kandidáty."
+      en: "No signal so far; ΛCDM does not require a specific particle, so null results constrain only some candidates."
+required_sections: [claims, predictions, open_problems, competitors, would_refute]
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "peebles-1984 jako first_proposed: ověřit, že jde o první návrh plochého modelu s CDM + Λ (alternativa: Efstathiou, Sutherland & Maddox 1990)"
+  - "pred.lcdm-dm-direct-detection: made.year 2018 je jen přehled; najít původní práci (Goodman & Witten 1985)"
+  - "alpher-herman-1948: strana s odhadem ~5 K"
+  - "fields-2011: poměr 3–4 v abstraktu"
+  - "weinberg-1989: formulace rozporu o desítky řádů, §1"
+  - "planck-2018-vi: H0 = 67,4 ± 0,5 a složení 5/27/68 % (tab. 2, sloupec TT,TE,EE+lowE+lensing)"
+  - "riess-2022: 73,04 ± 1,04 km/s/Mpc a ~5σ (abstrakt)"
+  - "desi-2025-dr2: rozsah 2,8–4,2σ (abstrakt)"

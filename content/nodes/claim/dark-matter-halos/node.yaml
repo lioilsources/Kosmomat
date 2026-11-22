@@ -1,0 +1,30 @@
+id: claim.dark-matter-halos
+type: claim
+status: strong
+literature: mainstream
+title: { cs: "Galaxie obklopují hala temné hmoty", en: "Galaxies are embedded in dark matter halos" }
+summary:
+  cs: "Výklad plochých rotačních křivek: kolem galaxií je rozsáhlé halo hmoty, která nesvítí ani nepohlcuje světlo a projevuje se jen gravitací. Podporují ho i čočkování a reliktní záření; částice zatím nenalezena."
+  en: "An interpretation of flat rotation curves: galaxies sit inside extended halos of matter that neither emits nor absorbs light and shows itself only through gravity. Lensing and the CMB also support it; no particle has been found yet."
+first_proposed:
+  year: 1974
+  by: [person.jeremiah-ostriker, person.jim-peebles, person.amos-yahil, person.jaan-einasto]
+  in: work.ostriker-1974
+edges:
+  - { rel: interprets, to: obs.flat-rotation-curves }
+  - { rel: inspired_by, to: person.fritz-zwicky, source: { work: work.bertone-hooper-2018, loc: "§III" } }
+  - { rel: supported_by, to: obs.flat-rotation-curves, source: { work: work.rubin-1980, loc: "abstrakt" } }
+  - { rel: supported_by, to: obs.bullet-cluster, source: { work: work.clowe-2006, loc: "abstrakt" } }
+  - { rel: supported_by, to: obs.cmb, source: { work: work.planck-2018-vi, loc: "tab. 2" } }
+  - { rel: opposed_by, to: person.mordehai-milgrom, source: { work: work.milgrom-1983, loc: "abstrakt" } }
+  - { rel: competes_with, to: theory.mond }
+  - { rel: related, to: term.dark-matter }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "bertone-hooper-2018: čísla sekcí (§III Zwicky, §IV rotační křivky)"
+  - "planck-2018-vi tab. 2: Ωc h² ≈ 0,120"
+  - "zwicky-1933: ověřit stranu s odhadem hmoty kupy (uvedeno s. 125)"
+  - "einasto-1974: doplnit jako druhý zdroj first_proposed (schéma dovoluje jen jeden work)"

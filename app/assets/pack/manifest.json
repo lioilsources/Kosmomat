@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0-m1",
+  "sha256": "40382b563fc626e421ee93fc19d9979f07f796a909bc9c2780d8121f03534d53",
+  "size": 90881,
+  "min_app": 1,
+  "url": "https://kosmomat.example/packs/pack-0.1.0-m1.sqlite.zst",
+  "nodes": 15,
+  "built_from": "11bfb5abe37182184e8170a99486fb9bf93464b18b6c74e894430ff8bc20263f"
+}

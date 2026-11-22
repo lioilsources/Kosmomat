@@ -1,0 +1,19 @@
+id: term.dark-matter
+type: term
+literature: mainstream
+title: { cs: "Temná hmota", en: "Dark matter" }
+summary:
+  cs: "Hypotetická hmota, která nevyzařuje světlo a projevuje se jen gravitačně. Odvozená z pohybů galaxií, gravitačních čoček a reliktního záření; částice temné hmoty zatím nikdo přímo nezachytil."
+  en: "Hypothetical matter that emits no light and shows itself only through gravity. Inferred from galaxy motions, gravitational lensing and the cosmic microwave background; no dark matter particle has yet been detected directly."
+edges:
+  - { rel: related, to: claim.dark-matter-halos }
+  - { rel: related, to: obs.flat-rotation-curves }
+  - { rel: related, to: theory.mond }
+  - { rel: related, to: term.antimatter }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "zwicky-1933: stránka s odhadem hmoty kupy v Coma (s. 124–126?)"
+  - "planck-2018-vi tab. 2: podíl temné hmoty ~26 % (Ωc = Ωch²/h²)"

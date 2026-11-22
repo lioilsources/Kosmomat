@@ -1,0 +1,18 @@
+id: obs.flat-rotation-curves
+type: observation
+status: established
+literature: mainstream
+title: { cs: "Ploché rotační křivky galaxií", en: "Flat galaxy rotation curves" }
+summary:
+  cs: "Hvězdy a plyn ve vnějších částech spirálních galaxií obíhají skoro stejně rychle jako blíž ke středu, i když tam je viditelné hmoty už málo. Měřeno opakovaně od 70. let různými metodami."
+  en: "Stars and gas in the outer parts of spiral galaxies orbit almost as fast as those closer in, even where little visible matter remains. Measured repeatedly since the 1970s with different methods."
+edges:
+  - { rel: related, to: term.dark-matter }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "rubin-ford-1970: ověřit lokátor (obr./§) pro tvrzení o vnějších oblastech M31"
+  - "rubin-1980: ověřit, že závěr o plochých křivkách je v abstraktu i v obr. (lokátor 'abstrakt')"
+  - "mcgaugh-2016: počet galaxií (153) a bodů (2693) v abstraktu"

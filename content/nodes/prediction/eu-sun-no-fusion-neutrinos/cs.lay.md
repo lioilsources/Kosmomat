@@ -1,0 +1,5 @@
+Podle modelu „elektrického Slunce“ získává Slunce energii z proudů přitékajících z okolního prostoru, ne z jaderné fúze v jádru [@scott-2006 kap. o Slunci]. Fúze vodíku na helium přitom nutně vyrábí neutrina s typickým spektrem energií; jejich tok ze Slunce spočítal John Bahcall už v roce 1964 [@bahcall-1964 abstrakt].
+
+Nejde o předpověď vyslovenou před měřením. Sluneční neutrina zachycoval Raymond Davis v dole Homestake od 60. let — tehdy ve zhruba třetinovém množství oproti výpočtu [@davis-1968 abstrakt]. Tento „deficit“ se po třiceti letech vysvětlil tím, že neutrina cestou mění druh; experiment SNO v roce 2002 změřil celkový tok všech druhů v souladu se slunečním modelem [@sno-2002 abstrakt].
+
+Rozhodující test přišel s detektorem Borexino. Ten změřil neutrina z první reakce řetězce pp (2014), všechny hlavní složky řetězce pp (2018) a v roce 2020 i neutrina z cyklu CNO, který dodává asi 1 % sluneční energie [@borexino-2014 abstrakt; @borexino-2018 abstrakt; @borexino-2020 abstrakt]. Spektrum tedy odpovídá fúzi v jádru, a tím je tato předpověď [[theory.electric-universe]] vyvrácena — viz [[obs.solar-neutrino-spectrum]] [@borexino-2020 abstrakt].

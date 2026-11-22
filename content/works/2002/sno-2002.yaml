@@ -1,0 +1,11 @@
+key: sno-2002
+tier: T1
+kind: article
+title: "Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory"
+authors: ["SNO Collaboration", "Ahmad, Q. R.", "et al."]
+year: 2002
+venue: "Physical Review Letters 89, 011301"
+ids: { doi: "10.1103/PhysRevLett.89.011301", arxiv: "nucl-ex/0204008", bibcode: "", isbn: "", url: "" }
+country: ["CA"]
+retracted: false
+verified: false

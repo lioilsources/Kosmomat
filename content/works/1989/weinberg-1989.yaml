@@ -1,0 +1,11 @@
+key: weinberg-1989
+tier: T1
+kind: article
+title: "The cosmological constant problem"
+authors: ["Weinberg, S."]
+year: 1989
+venue: "Reviews of Modern Physics 61, 1–23"
+ids: { doi: "10.1103/RevModPhys.61.1", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

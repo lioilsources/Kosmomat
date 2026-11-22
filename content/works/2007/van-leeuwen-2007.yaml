@@ -1,0 +1,11 @@
+key: van-leeuwen-2007
+tier: T1
+kind: article
+title: "Validation of the new Hipparcos reduction"
+authors: ["van Leeuwen, F."]
+year: 2007
+venue: "Astronomy & Astrophysics 474, 653–664"
+ids: { doi: "10.1051/0004-6361:20078357", arxiv: "0708.1752", bibcode: "", isbn: "", url: "" }
+country: ["GB"]
+retracted: false
+verified: false

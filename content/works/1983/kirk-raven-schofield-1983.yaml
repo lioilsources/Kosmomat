@@ -1,0 +1,11 @@
+key: kirk-raven-schofield-1983
+tier: T5
+kind: book
+title: "The Presocratic Philosophers (2nd ed.)"
+authors: ["Kirk, G. S.", "Raven, J. E.", "Schofield, M."]
+year: 1983
+venue: "Cambridge University Press"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["GB"]
+retracted: false
+verified: false

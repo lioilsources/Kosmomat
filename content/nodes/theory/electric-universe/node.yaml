@@ -1,0 +1,59 @@
+id: theory.electric-universe
+type: theory
+status: refuted
+literature: outside
+title: { cs: "Elektrický vesmír", en: "Electric Universe" }
+summary:
+  cs: "Soubor myšlenek, podle nichž vesmírné děje řídí hlavně elektrické proudy v plazmatu, ne gravitace; Slunce má být napájeno zvenčí. Klíčové předpovědi (sluneční neutrina, neutronové hvězdy) testy nepotvrdily."
+  en: "A set of ideas holding that cosmic events are driven mainly by electric currents in plasma rather than gravity, with the Sun powered from outside. Its key predictions (solar neutrinos, neutron stars) failed their tests."
+first_proposed:
+  year: 1972
+  by: [person.ralph-juergens]
+  in: work.juergens-1972
+edges:
+  - { rel: inspired_by, to: person.immanuel-velikovsky, source: { work: work.juergens-1972, loc: "úvod" } }
+  - { rel: inspired_by, to: theory.plasma-cosmology }
+  - { rel: competes_with, to: theory.lcdm }
+  - { rel: predicts, to: pred.eu-sun-no-fusion-neutrinos }
+  - { rel: contradicted_by, to: obs.solar-neutrino-spectrum, source: { work: work.borexino-2020, loc: "abstrakt" } }
+  - { rel: contradicted_by, to: obs.gw170817, source: { work: work.abbott-2017-gw170817, loc: "abstrakt" } }
+  - { rel: contradicted_by, to: obs.m87-black-hole-shadow, source: { work: work.eht-2019-i, loc: "abstrakt" } }
+predictions:
+  - id: pred.eu-no-neutron-stars-black-holes
+    statement:
+      cs: "Neutronové hvězdy a černé díry neexistují; pulsary a jasné kompaktní zdroje jsou elektrické výboje v plazmatu."
+      en: "Neutron stars and black holes do not exist; pulsars and bright compact sources are electrical discharges in plasma."
+    made: { year: 2006, by: [person.donald-scott], in: work.scott-2006, loc: "kap. o pulsarech a černých dírách" }
+    made_before_observation: true
+    retrodiction: false
+    test: { year: 2017, obs: obs.gw170817, in: work.abbott-2017-gw170817, loc: "abstrakt" }
+    outcome: refuted
+    note:
+      cs: "Gravitační vlny GW170817 odpovídají splynutí dvou neutronových hvězd; EHT v roce 2019 zobrazil stín černé díry v M87."
+      en: "The GW170817 gravitational waves match the merger of two neutron stars; in 2019 the EHT imaged the shadow of the black hole in M87."
+  - id: pred.eu-comets-electric
+    statement:
+      cs: "Komety jsou elektricky nabitá skalnatá tělesa; jejich aktivita je výboj v plazmatu, ne vypařování ledu."
+      en: "Comets are electrically charged rocky bodies; their activity is a plasma discharge, not evaporating ice."
+    made: { year: 2007, by: [person.wallace-thornhill, person.david-talbott], in: work.thornhill-talbott-2007, loc: "kap. o kometách" }
+    made_before_observation: false
+    retrodiction: false
+    test: { year: 2016, obs: obs.comet-nucleus-density, in: work.patzold-2016, loc: "abstrakt" }
+    outcome: refuted
+    note:
+      cs: "Zastánci uvádějí záblesk při nárazu Deep Impact (2005) jako úspěch; tým mise ale našel vodní led a velmi pórovité jádro a Rosetta změřila u komety 67P hustotu asi poloviční než u vody."
+      en: "Proponents cite the flash at the Deep Impact collision (2005) as a success; the mission team found water ice and a highly porous nucleus, and Rosetta measured comet 67P at about half the density of water."
+required_sections: [claims, predictions, open_problems, competitors, would_refute]
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "juergens-1972: ověřit název, číslo Pensée a že tam poprvé navrhl elektrické Slunce (jinak Juergens 1979, Kronos)"
+  - "scott-2006: lokátory kapitol (Slunce jako anoda, pulsary, černé díry) — nutno z knihy"
+  - "thornhill-talbott-2007: lokátory kapitol (komety, Alfvén/plazmová kosmologie, Velikovskij)"
+  - "Komety: najít tvrzení Thornhilla z doby před nárazem Deep Impact 4. 7. 2005 (thunderbolts.info) — pak made_before_observation: true a year 2005"
+  - "ahearn-2005: formulace o ledu a pórovitosti (abstrakt)"
+  - "patzold-2016: hustota 533 ± 6 kg/m³ (abstrakt)"
+  - "Odstavec o neutralitě hmoty cituje planck-2018-vi jen obecně — najít T1 zdroj (stínění, Debyeova délka) nebo odkázat na budoucí term.debye-shielding"
+  - "Steelman: dát kartu přečíst zastánci EU (P8)"

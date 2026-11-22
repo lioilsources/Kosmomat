@@ -1,0 +1,30 @@
+id: pred.eu-sun-no-fusion-neutrinos
+type: prediction
+status: refuted
+literature: outside
+theory: theory.electric-universe
+title: { cs: "Elektrické Slunce: žádná neutrina z fúze v jádru", en: "Electric Sun: no neutrinos from core fusion" }
+summary:
+  cs: "Je-li Slunce napájeno zvenčí elektrickými proudy, nemá z jeho jádra přicházet spektrum neutrin řetězce pp a cyklu CNO. Borexino obě složky změřil v souladu s modelem s fúzí."
+  en: "If the Sun is powered externally by electric currents, its core should not emit the neutrino spectrum of the pp chain and CNO cycle. Borexino measured both components in agreement with the fusion model."
+statement:
+  cs: "Slunce nezískává energii jadernou fúzí v jádru, a proto z něj nepřichází neutrinové spektrum odpovídající řetězci pp a cyklu CNO."
+  en: "The Sun does not draw its energy from nuclear fusion in its core, so it does not emit a neutrino spectrum matching the pp chain and CNO cycle."
+made: { year: 2006, by: [person.donald-scott], in: work.scott-2006, loc: "kap. o Slunci" }
+made_before_observation: false
+retrodiction: false
+test: { year: 2020, obs: obs.solar-neutrino-spectrum, by: [person.borexino-collaboration], in: work.borexino-2020, loc: "abstrakt" }
+outcome: refuted
+note:
+  cs: "Nejde o předpověď před měřením: sluneční neutrina se měří od roku 1968. Rozhodující je, že Borexino v letech 2014–2020 změřil jednotlivé složky spektra (pp, ⁷Be, pep, CNO) v souladu se standardním slunečním modelem."
+  en: "This was not a prediction ahead of measurement: solar neutrinos have been measured since 1968. What decides it is that Borexino measured the individual spectral components (pp, ⁷Be, pep, CNO) in 2014–2020 in agreement with the standard solar model."
+edges:
+  - { rel: tested_by, to: obs.solar-neutrino-spectrum }
+  - { rel: contradicted_by, to: obs.solar-neutrino-spectrum, source: { work: work.borexino-2018, loc: "abstrakt" } }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "scott-2006: přesná formulace tvrzení o neutrinech a lokátor; zjistit, zda zastánci neuvádějí fúzi v povrchových vrstvách jako zdroj neutrin — pokud ano, uvést jejich verzi (P8) a ukázat, proč ji spektrum vylučuje"
+  - "Zvážit jako dřívější made: Juergens 1972/1979"

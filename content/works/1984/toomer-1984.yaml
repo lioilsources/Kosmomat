@@ -1,0 +1,11 @@
+key: toomer-1984
+tier: T5
+kind: book
+title: "Ptolemy's Almagest (translated and annotated)"
+authors: ["Toomer, G. J."]
+year: 1984
+venue: "Duckworth, London / Springer"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["GB"]
+retracted: false
+verified: false

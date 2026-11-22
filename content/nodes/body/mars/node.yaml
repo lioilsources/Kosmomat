@@ -1,0 +1,19 @@
+id: body.mars
+type: body
+astromat: true
+title: { cs: "Mars", en: "Mars" }
+summary:
+  cs: "Čtvrtá planeta od Slunce, poloviční velikosti Země, s řídkou atmosférou z oxidu uhličitého. Od Země je 55 až 400 milionů km, světlo letí 3 až 22 minut. Otevřená otázka: odkud se bere (a jestli vůbec) metan."
+  en: "The fourth planet from the Sun, half Earth's size, with a thin carbon dioxide atmosphere. It is 55 to 400 million km from Earth; light takes 3 to 22 minutes. Open question: where methane comes from — and whether it is there at all."
+edges:
+  - { rel: related, to: constellation.aries }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "nssdc-mars: aktuální hodnoty (poloměr 3389,5 km, oběh 687 dní, vzdálenost od Země 54,6–401,4 mil. km)"
+  - "stahler-2021: poloměr jádra 1830 ± 40 km proti abstraktu"
+  - "webster-2018: rozsah sezónní variace metanu (0,24–0,65 ppbv) proti abstraktu"
+  - "korablev-2019: horní mez 0,05 ppbv proti abstraktu"
+  - "Doplnit work pro mise (Curiosity, InSight, TGO) jako mission uzly v M3"

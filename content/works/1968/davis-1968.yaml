@@ -1,0 +1,11 @@
+key: davis-1968
+tier: T1
+kind: article
+title: "Search for Neutrinos from the Sun"
+authors: ["Davis, R., Jr.", "Harmer, D. S.", "Hoffman, K. C."]
+year: 1968
+venue: "Physical Review Letters 20, 1205–1209"
+ids: { doi: "10.1103/PhysRevLett.20.1205", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

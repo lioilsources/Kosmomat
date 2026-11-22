@@ -1,0 +1,11 @@
+key: penzias-wilson-1965
+tier: T1
+kind: article
+title: "A Measurement of Excess Antenna Temperature at 4080 Mc/s"
+authors: ["Penzias, A. A.", "Wilson, R. W."]
+year: 1965
+venue: "The Astrophysical Journal 142, 419–421"
+ids: { doi: "10.1086/148307", arxiv: "", bibcode: "1965ApJ...142..419P", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

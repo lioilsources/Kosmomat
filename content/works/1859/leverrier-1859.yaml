@@ -1,0 +1,11 @@
+key: leverrier-1859
+tier: T1
+kind: classic
+title: "Théorie du mouvement de Mercure"
+authors: ["Le Verrier, U. J. J."]
+year: 1859
+venue: "Annales de l'Observatoire impérial de Paris 5, 1–196"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["FR"]
+retracted: false
+verified: false

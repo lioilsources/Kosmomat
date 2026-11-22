@@ -1,0 +1,11 @@
+key: wagoner-1967
+tier: T1
+kind: article
+title: "On the Synthesis of Elements at Very High Temperatures"
+authors: ["Wagoner, R. V.", "Fowler, W. A.", "Hoyle, F."]
+year: 1967
+venue: "The Astrophysical Journal 148, 3–49"
+ids: { doi: "10.1086/149126", arxiv: "", bibcode: "1967ApJ...148....3W", isbn: "", url: "" }
+country: ["US", "GB"]
+retracted: false
+verified: false

@@ -1,0 +1,19 @@
+id: obs.solar-neutrino-spectrum
+type: observation
+status: established
+literature: mainstream
+title: { cs: "Spektrum slunečních neutrin", en: "Solar neutrino spectrum" }
+summary:
+  cs: "Detektory pod zemí měří neutrina ze Slunce od roku 1968. Borexino v letech 2014–2020 rozlišil složky z řetězce pp i z cyklu CNO; jejich toky odpovídají jaderné fúzi v jádru Slunce."
+  en: "Underground detectors have measured neutrinos from the Sun since 1968. In 2014–2020 Borexino resolved the components from the pp chain and the CNO cycle; their fluxes match nuclear fusion in the Sun's core."
+edges:
+  - { rel: measured_by, to: mission.borexino }
+  - { rel: measured_by, to: mission.sno }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "borexino-2014: tok pp neutrin (6,6 ± 0,7)·10¹⁰ cm⁻² s⁻¹ (abstrakt)"
+  - "borexino-2020: významnost CNO (~5σ) a podíl ~1 % energie (abstrakt)"
+  - "davis-1968: 'zhruba třetina' — v abstraktu je horní mez; přesnější je přehled Bahcall/Davis, zvážit doplnění"

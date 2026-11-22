@@ -1,0 +1,11 @@
+key: delporte-1930
+tier: T5
+kind: book
+title: "Délimitation scientifique des constellations"
+authors: ["Delporte, E."]
+year: 1930
+venue: "Cambridge University Press (pro IAU)"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["BE"]
+retracted: false
+verified: false

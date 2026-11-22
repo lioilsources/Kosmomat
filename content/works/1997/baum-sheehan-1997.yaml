@@ -1,0 +1,11 @@
+key: baum-sheehan-1997
+tier: T5
+kind: book
+title: "In Search of Planet Vulcan: The Ghost in Newton's Clockwork Universe"
+authors: ["Baum, R.", "Sheehan, W."]
+year: 1997
+venue: "Plenum Press, New York"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["GB", "US"]
+retracted: false
+verified: false

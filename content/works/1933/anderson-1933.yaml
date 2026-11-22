@@ -1,0 +1,11 @@
+key: anderson-1933
+tier: T1
+kind: article
+title: "The Positive Electron"
+authors: ["Anderson, C. D."]
+year: 1933
+venue: "Physical Review 43, 491–494"
+ids: { doi: "10.1103/PhysRev.43.491", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

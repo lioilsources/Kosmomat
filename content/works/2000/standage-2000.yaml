@@ -1,0 +1,11 @@
+key: standage-2000
+tier: T6
+kind: popular
+title: "The Neptune File"
+authors: ["Standage, T."]
+year: 2000
+venue: "Walker & Company, New York"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["GB"]
+retracted: false
+verified: false

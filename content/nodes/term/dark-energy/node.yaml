@@ -1,0 +1,18 @@
+id: term.dark-energy
+type: term
+literature: mainstream
+title: { cs: "Temná energie", en: "Dark energy" }
+summary:
+  cs: "Označení pro příčinu zrychlujícího se rozpínání vesmíru, objeveného na supernovách v letech 1998–1999. Podle ΛCDM tvoří asi 69 % hustoty vesmíru; co to fyzikálně je, nikdo neví."
+  en: "The name for whatever drives the accelerating expansion of the universe, discovered with supernovae in 1998–1999. In ΛCDM it makes up about 69% of the universe's density; what it physically is, nobody knows."
+edges:
+  - { rel: related, to: theory.lcdm }
+  - { rel: related, to: term.dark-matter }
+  - { rel: related, to: term.antimatter }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "desi-2025-dr2: rozpětí 2,8–4,2σ proti abstraktu"
+  - "weinberg-1989: lokátor sekce s odhadem nesouladu"

@@ -1,0 +1,11 @@
+key: velikovsky-1950
+tier: T5
+kind: book
+title: "Worlds in Collision"
+authors: ["Velikovsky, I."]
+year: 1950
+venue: "Macmillan, New York"
+ids: { doi: "", arxiv: "", bibcode: "", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

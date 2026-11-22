@@ -1,0 +1,20 @@
+id: constellation.aries
+type: constellation
+astromat: true
+title: { cs: "Beran", en: "Aries" }
+summary:
+  cs: "Malé souhvězdí na ekliptice mezi Rybami a Býkem. Nejjasnější hvězda Hamal je asi 66 světelných let daleko. Znamení Berana začíná jarní rovnodenností; Slunce do souhvězdí kvůli precesi vchází zhruba o měsíc později."
+  en: "A small constellation on the ecliptic between Pisces and Taurus. Its brightest star, Hamal, is about 66 light years away. The sign of Aries begins at the spring equinox; because of precession the Sun enters the constellation about a month later."
+edges:
+  - { rel: related, to: body.mars }
+changelog:
+  - { date: 2026-11-22, kind: created, note: "Zlatý vzorek M0" }
+last_verified: 2026-11-22
+verified_by: draft
+todo_verify:
+  - "van-leeuwen-2007: paralaxa Hamalu (~49,5 mas) — číslo je z katalogu, ne z článku; doplnit work pro katalog Hipparcos 2007 (I/311) a ověřit"
+  - "Data vstupu Slunce do souhvězdí Berana podle hranic IAU (~19. 4. – ~14. 5.) — ověřit výpočtem sky_core"
+  - "toomer-1984: lokátor Ptolemaiova počátku délek v jarním bodě a hodnoty precese (VII.2–3)"
+  - "pingree-1997: lokátor o siderickém zvěrokruhu v indické astrologii"
+  - "Moderní rychlost precese (~50″/rok, ~72 let na 1°) — doplnit T1 zdroj"
+  - "Přechod jarního bodu do Vodnáře — doplnit zdroj s výpočtem podle hranic IAU"

@@ -1,0 +1,11 @@
+key: riess-2022
+tier: T1
+kind: article
+title: "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team"
+authors: ["Riess, A. G.", "et al."]
+year: 2022
+venue: "The Astrophysical Journal Letters 934, L7"
+ids: { doi: "10.3847/2041-8213/ac5c5b", arxiv: "2112.04510", bibcode: "", isbn: "", url: "" }
+country: ["US"]
+retracted: false
+verified: false

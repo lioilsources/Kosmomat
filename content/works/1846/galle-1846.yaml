@@ -1,0 +1,11 @@
+key: galle-1846
+tier: T1
+kind: classic
+title: "Account of the discovery of Le Verrier's planet Neptune, at Berlin, Sept. 23, 1846"
+authors: ["Galle, J. G."]
+year: 1846
+venue: "Monthly Notices of the Royal Astronomical Society 7, 153"
+ids: { doi: "", arxiv: "", bibcode: "1846MNRAS...7..153G", isbn: "", url: "" }
+country: ["DE"]
+retracted: false
+verified: false
