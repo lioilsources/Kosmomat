@@ -8,4 +8,4 @@ venue: "Physical Review Letters 119, 161101"
 ids: { doi: "10.1103/PhysRevLett.119.161101", arxiv: "1710.05832", bibcode: "", isbn: "", url: "" }
 country: []
 retracted: false
-verified: false
+verified: true

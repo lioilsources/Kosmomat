@@ -8,4 +8,4 @@ venue: "Nature 512, 383–386"
 ids: { doi: "10.1038/nature13702", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["IT"]
 retracted: false
-verified: false
+verified: true

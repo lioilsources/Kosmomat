@@ -8,4 +8,4 @@ venue: "The Astronomical Journal 116, 1009–1038"
 ids: { doi: "10.1086/300499", arxiv: "astro-ph/9805201", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

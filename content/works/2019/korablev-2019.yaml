@@ -8,4 +8,4 @@ venue: "Nature 568, 517–520"
 ids: { doi: "10.1038/s41586-019-1096-4", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["RU", "FR", "BE"]
 retracted: false
-verified: false
+verified: true

@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal 633, 560–574"
 ids: { doi: "10.1086/466512", arxiv: "astro-ph/0501171", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

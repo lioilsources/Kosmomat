@@ -8,4 +8,4 @@ venue: "Physical Review D 70, 083509"
 ids: { doi: "10.1103/PhysRevD.70.083509", arxiv: "astro-ph/0403694", bibcode: "", isbn: "", url: "" }
 country: ["IL"]
 retracted: false
-verified: false
+verified: true

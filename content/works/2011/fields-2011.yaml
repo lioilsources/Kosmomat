@@ -8,4 +8,4 @@ venue: "Annual Review of Nuclear and Particle Science 61, 47–68"
 ids: { doi: "10.1146/annurev-nucl-102010-130445", arxiv: "1203.3551", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

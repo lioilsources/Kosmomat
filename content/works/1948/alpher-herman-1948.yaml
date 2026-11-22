@@ -8,4 +8,4 @@ venue: "Nature 162, 774–775"
 ids: { doi: "10.1038/162774b0", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

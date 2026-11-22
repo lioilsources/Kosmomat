@@ -23,7 +23,8 @@ Po změně `content/` vždy přestavět pack s `-app`; CI kontroluje, že přiba
 - `internal/lint` — pravidla L1–L11 (+ S strukturální, V ověření)
 - `internal/pack` — SQLite pack (`schema.sql`, FTS5), manifest, web export
 - `app/` — Flutter čtečka (Riverpod, go_router, sqlite3 s FTS5); pack v `app/assets/pack/`, texty UI v ARB (cs, en)
-- Plánované: `cmd/harvester`, `cmd/reviewd`, `pipeline/` Python, `review/` Svelte, `web/` Astro
+- `cmd/harvester` + `internal/harvest` — arXiv/Crossref/SciX → `out/harvest.sqlite` (works_raw); `verify` kontroluje `content/works`
+- Plánované: `cmd/reviewd`, `pipeline/` Python, `review/` Svelte, `web/` Astro
 
 ## Invarianty
 - Žádné věcné tvrzení bez zdroje s lokátorem. Nevymýšlet; nejistotu zapsat do `todo_verify`.

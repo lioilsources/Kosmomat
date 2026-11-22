@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal Letters 875, L1"
 ids: { doi: "10.3847/2041-8213/ab0ec7", arxiv: "1906.11238", bibcode: "", isbn: "", url: "" }
 country: []
 retracted: false
-verified: false
+verified: true

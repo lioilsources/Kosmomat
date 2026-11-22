@@ -13,11 +13,16 @@ nesouhlasí a jak dopadly jeho předpovědi.
 - **M1 — čtečka:** Flutter appka (`app/`) — Dnes, Karta, list zdroje, Rodokmen, kniha předpovědí, Hledat
   (offline FTS), Moje, Nastavení, Kredity, Redakční ústava; přibalený pack.
 
+- **M2 — výrobní linka (rozpracováno):** `harvester` (arXiv OAI-PMH, Crossref, SciX) a ověření metadat
+  zdrojů; 52 ze 71 works ověřeno proti Crossrefu.
+
 ## Použití
 
 ```
 go run ./cmd/kosmolint -warnings
 go run ./cmd/kosmobuild -version 0.1.0
+go run ./cmd/harvester verify            # works proti Crossref/arXiv (-write zapíše shody)
+go run ./cmd/harvester arxiv -from 2026-11-19
 ```
 
 Výstup v `out/`: `pack.sqlite`, `pack.sqlite.zst`, `manifest.json`, `web/` (JSON pro Astro web).

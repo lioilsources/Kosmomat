@@ -8,4 +8,4 @@ venue: "Physical Review 43, 491–494"
 ids: { doi: "10.1103/PhysRev.43.491", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

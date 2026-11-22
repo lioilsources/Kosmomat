@@ -8,4 +8,4 @@ venue: "Science 360, 1096–1101"
 ids: { doi: "10.1126/science.aas9185", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

@@ -8,4 +8,4 @@ venue: "Nature 250, 309–310"
 ids: { doi: "10.1038/250309a0", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["EE"]
 retracted: false
-verified: false
+verified: true

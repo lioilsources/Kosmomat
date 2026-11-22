@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal Letters 193, L1–L4"
 ids: { doi: "10.1086/181617", arxiv: "", bibcode: "1974ApJ...193L...1O", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

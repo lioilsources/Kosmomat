@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal 159, 379"
 ids: { doi: "10.1086/150317", arxiv: "", bibcode: "1970ApJ...159..379R", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

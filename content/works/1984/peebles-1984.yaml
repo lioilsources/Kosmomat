@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal 284, 439–444"
 ids: { doi: "10.1086/162425", arxiv: "", bibcode: "1984ApJ...284..439P", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

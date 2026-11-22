@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-11-22T17:22:35Z</responseDate>
+                <request verb="ListRecords" metadataPrefix="arXiv" from="2026-11-19" until="2026-11-19" set="physics:gr-qc">http://oaipmh.arxiv.org/oai</request>
+
+
+    <ListRecords><record>
+                <header>
+        <identifier>oai:arXiv.org:2508.05536</identifier>
+        <datestamp>2026-11-19</datestamp>
+            <setSpec>physics:gr-qc</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2508.05536</id>
+        <created>2026-11-17</created>
+            <updated>2026-11-19</updated>
+        <authors>
+                <author>
+                    <keyname>Alencar</keyname>
+                        <forenames>G.</forenames>
+                </author>
+                <author>
+                    <keyname>Dárlla</keyname>
+                        <forenames>R.</forenames>
+                </author>
+                <author>
+                    <keyname>Nojiri</keyname>
+                        <forenames>Shin&#39;ichi</forenames>
+                </author>
+                <author>
+                    <keyname>Odintsov</keyname>
+                        <forenames>Sergei D.</forenames>
+                </author>
+                <author>
+                    <keyname>Gómez</keyname>
+                        <forenames>Diego Sáez-Chillón</forenames>
+                </author>
+        </authors>
+        <title>Non-stationary wormholes with the presence of scalar fields and modified gravity</title>
+            <categories>gr-qc</categories>
+            <comments>13 pages, 7 figures. Corrections in the reference list. Comments are welcome</comments>
+            <report-no>KEK-TH-2742, KEK-Cosmo-0387</report-no>
+            <journal-ref>International Journal of Geometric Methods in Modern Physics, volume 24, number 01, (2027)</journal-ref>
+            <doi>10.1142/S0219887826501082</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Some novel regular spacetimes are considered that show a non-stationary wormhole structure. A Simpson-Visser-like procedure is applied to reconstruct these regular spacetimes, free of time-like and space-like singularities. Such a procedure is also applied to describe a regular cosmological expansion, where the universe reaches a minimum scale and then rebounds. This type of regular spacetime is achieved by considering some scalar fields as sources, with the appropriate kinetic term and scalar potential. We show that all these sources turn out to be ghosts due to the wrong sign of the kinetic term. These ghosts can, however, be eliminated by constraints. Nevertheless, the same procedure is also explored in the framework of modified gravities, particularly within the so-called f(R) gravity, where a new wormhole spacetime is also obtained that does not require a ghost scalar field.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+<record>
+                <header>
+        <identifier>oai:arXiv.org:2505.24743</identifier>
+        <datestamp>2026-11-19</datestamp>
+            <setSpec>physics:astro-ph:CO</setSpec>
+            <setSpec>physics:gr-qc</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2505.24743</id>
+        <created>2025-06-11</created>
+            <updated>2026-11-19</updated>
+        <authors>
+                <author>
+                    <keyname>Manoharan</keyname>
+                        <forenames>Manosh T.</forenames>
+                </author>
+        </authors>
+        <title>What solves the Hubble tension in phenomenological dark energy models at background level?</title>
+            <categories>hep-th</categories>
+            <comments>20 pages. Comments and feedback are greatly appreciated. Currently under journal review. In this version - fixed typos in equations</comments>
+            <journal-ref>Journal of High Energy Astrophysics Date: July 2026 Article: 100622 Volume: Volume 53</journal-ref>
+            <doi>10.1016/j.jheap.2026.100622</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Few phenomenological models tend to favour higher values of the Hubble parameter, often at the expense of invoking phantom transitions. These models achieve this without introducing additional parameters, akin to the simplicity of the concordance $Λ$CDM model. In this work, we investigate two such models -- Phenomenologically Emergent Dark Energy (PEDE) and Granda-Oliveros Holographic Dark Energy (GOHDE) -- to assess how correlations between $H_0$ and $Ω_m$, as well as the choice of datasets, influence conclusions regarding their potential to address the Hubble tension at the background level. We find that minimally extended versions of these models favour notably low values for the Hubble parameter, with the perceived preference for higher values driven by the associated prior. Excluding BAO Ly$α$-$H(z)$ data points at a redshift of $\sim 2.3$ results in a Hubble parameter that remains in significant tension with SH0ES measurements. In contrast, including these data points favours a higher $H_0$, as they suggest a relatively lower matter density within the framework of the assumed fiducial cosmology. Additionally, recent DESI DR1 and DR2 data exhibit mild tension with BAO-$H(z)$ estimates from SDSS. We demonstrate that the inclusion of stringent constraints, such as the CMB shift-parameter along with Pantheon$^+$, on the effective pressure less matter density significantly impacts the estimation of the Hubble parameter. Finally, reinterpreting these models in terms of interacting dark sectors with $Q = 3Hγ_Λ\tildeρ_{m}$ reveals that addressing the Hubble tension necessitates a varying $γ_Λ$ characterised by a singular sign-switch behaviour. This phantom behaviour, or equivalently, the onset of violation of the null energy condition in the future, is crucial for minimal models to solve the Hubble tension.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+</ListRecords>
+</OAI-PMH>

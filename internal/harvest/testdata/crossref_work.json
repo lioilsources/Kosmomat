@@ -1,0 +1,75 @@
+{
+ "status": "ok",
+ "message": {
+  "DOI": "10.1103/physrev.43.491",
+  "title": [
+   "The Positive Electron"
+  ],
+  "container-title": [
+   "Physical Review"
+  ],
+  "author": [
+   {
+    "given": "Carl D.",
+    "family": "Anderson",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1933,
+     3,
+     15
+    ]
+   ]
+  },
+  "published-online": {
+   "date-parts": [
+    [
+     1933,
+     3,
+     15
+    ]
+   ]
+  },
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     14
+    ]
+   ],
+   "date-time": "2026-11-14T22:41:42Z",
+   "timestamp": 1794696102448,
+   "version": "4.9.1"
+  },
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       1933,
+       3,
+       15
+      ]
+     ],
+     "date-time": "1933-03-15T00:00:00Z",
+     "timestamp": -1161302400000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "http://link.aps.org/licenses/aps-default-license"
+   }
+  ],
+  "type": "journal-article"
+ }
+}

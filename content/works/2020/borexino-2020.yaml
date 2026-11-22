@@ -8,4 +8,4 @@ venue: "Nature 587, 577–582"
 ids: { doi: "10.1038/s41586-020-2934-0", arxiv: "2006.15115", bibcode: "", isbn: "", url: "" }
 country: ["IT"]
 retracted: false
-verified: false
+verified: true

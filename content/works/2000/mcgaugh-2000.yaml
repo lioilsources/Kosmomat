@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal Letters 533, L99–L102"
 ids: { doi: "10.1086/312628", arxiv: "astro-ph/0003001", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

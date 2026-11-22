@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal 499, 66–81"
 ids: { doi: "10.1086/305629", arxiv: "astro-ph/9801102", bibcode: "", isbn: "", url: "" }
 country: ["US", "AU"]
 retracted: false
-verified: false
+verified: true

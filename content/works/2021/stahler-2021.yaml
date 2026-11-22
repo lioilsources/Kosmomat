@@ -8,4 +8,4 @@ venue: "Science 373, 443–448"
 ids: { doi: "10.1126/science.abi7730", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["CH"]
 retracted: false
-verified: false
+verified: true

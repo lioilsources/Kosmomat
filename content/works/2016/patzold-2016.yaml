@@ -8,4 +8,4 @@ venue: "Nature 530, 63–65"
 ids: { doi: "10.1038/nature16535", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["DE"]
 retracted: false
-verified: false
+verified: true

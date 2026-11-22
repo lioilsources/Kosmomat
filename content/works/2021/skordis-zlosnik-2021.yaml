@@ -8,4 +8,4 @@ venue: "Physical Review Letters 127, 161302"
 ids: { doi: "10.1103/PhysRevLett.127.161302", arxiv: "2007.00082", bibcode: "", isbn: "", url: "" }
 country: ["CZ"]
 retracted: false
-verified: false
+verified: true

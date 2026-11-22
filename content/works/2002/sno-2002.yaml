@@ -8,4 +8,4 @@ venue: "Physical Review Letters 89, 011301"
 ids: { doi: "10.1103/PhysRevLett.89.011301", arxiv: "nucl-ex/0204008", bibcode: "", isbn: "", url: "" }
 country: ["CA"]
 retracted: false
-verified: false
+verified: true

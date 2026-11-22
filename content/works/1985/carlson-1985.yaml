@@ -8,4 +8,4 @@ venue: "Nature 318, 419–425"
 ids: { doi: "10.1038/318419a0", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

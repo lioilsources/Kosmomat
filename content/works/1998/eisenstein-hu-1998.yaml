@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal 496, 605–614"
 ids: { doi: "10.1086/305424", arxiv: "astro-ph/9709112", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

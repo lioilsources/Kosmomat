@@ -8,4 +8,4 @@ venue: "Living Reviews in Relativity 15, 10"
 ids: { doi: "10.12942/lrr-2012-10", arxiv: "1112.3960", bibcode: "", isbn: "", url: "" }
 country: ["FR", "US"]
 retracted: false
-verified: false
+verified: true

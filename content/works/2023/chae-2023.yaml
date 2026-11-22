@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal 952, 128"
 ids: { doi: "10.3847/1538-4357/ace101", arxiv: "2305.04613", bibcode: "", isbn: "", url: "" }
 country: ["KR"]
 retracted: false
-verified: false
+verified: true

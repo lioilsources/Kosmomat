@@ -8,4 +8,4 @@ venue: "Astronomy & Astrophysics 641, A6"
 ids: { doi: "10.1051/0004-6361/201833910", arxiv: "1807.06209", bibcode: "", isbn: "", url: "" }
 country: []
 retracted: false
-verified: false
+verified: true

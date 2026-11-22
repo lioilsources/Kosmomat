@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal Letters 934, L7"
 ids: { doi: "10.3847/2041-8213/ac5c5b", arxiv: "2112.04510", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

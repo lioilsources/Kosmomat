@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal Letters 648, L109–L113"
 ids: { doi: "10.1086/508162", arxiv: "astro-ph/0608407", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

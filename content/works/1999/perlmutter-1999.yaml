@@ -8,4 +8,4 @@ venue: "The Astrophysical Journal 517, 565–586"
 ids: { doi: "10.1086/307221", arxiv: "astro-ph/9812133", bibcode: "", isbn: "", url: "" }
 country: ["US"]
 retracted: false
-verified: false
+verified: true

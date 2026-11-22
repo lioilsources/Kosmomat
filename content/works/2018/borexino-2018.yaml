@@ -8,4 +8,4 @@ venue: "Nature 562, 505–510"
 ids: { doi: "10.1038/s41586-018-0624-y", arxiv: "", bibcode: "", isbn: "", url: "" }
 country: ["IT"]
 retracted: false
-verified: false
+verified: true

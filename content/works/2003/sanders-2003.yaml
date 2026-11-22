@@ -8,4 +8,4 @@ venue: "Monthly Notices of the Royal Astronomical Society 342, 901–908"
 ids: { doi: "10.1046/j.1365-8711.2003.06596.x", arxiv: "astro-ph/0212293", bibcode: "", isbn: "", url: "" }
 country: ["NL"]
 retracted: false
-verified: false
+verified: true
